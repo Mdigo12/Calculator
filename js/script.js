@@ -32,3 +32,11 @@ function mod(fNum, sNum) {
 };
 modulous = ('The reminder is' + ' ' + mod(fNum, sNum));
 
+var fNum = parseFloat(prompt('Enter your weight in Kg'));
+var sNum = parseFloat(prompt('Enter your Height In Metres'));
+
+function bmi(fNum, sNum) {
+  return fNum / (sNum*sNum);
+};
+
+alert( 'Your BMI is' +' ' + bmi(fNum, sNum));
