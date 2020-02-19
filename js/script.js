@@ -40,3 +40,21 @@ function bmi(fNum, sNum) {
 };
 
 alert( 'Your BMI is' +' ' + bmi(fNum, sNum));
+
+var fNum = parseFloat(prompt('Enter Temperatures in Fahrenheit'));
+
+
+function temp(fNum) {
+  return (fNum-32) * (5/9);
+};
+
+alert( 'The Temperature is' +' ' + temp(fNum) +' ' + 'degrees celsius');
+
+var fNum = parseFloat(prompt('Enter Temperatures in Celsius'));
+
+
+function temp(fNum) {
+  return fNum*9/5+32;
+};
+
+alert( 'The Temperature is' +' ' + temp(fNum) +' ' + 'degrees fahrenheit');
